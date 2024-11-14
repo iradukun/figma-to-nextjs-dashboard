@@ -1,11 +1,12 @@
-import './globals.css'
+import '@/styles/globals.css'
+import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata = {
-  title: 'Smart Traffic Management',
-  description: 'AI-powered traffic optimization for a greener Kigali',
+export const metadata: Metadata = {
+  title: 'Bouletteproof Dashboard',
+  description: 'Bouletteproof dashboard design',
 }
 
 export default function RootLayout({

@@ -165,30 +165,30 @@ export default function Dashboard() {
               </DropdownMenuContent>
             </DropdownMenu>
           </div>
-          <div className="flex items-center gap-4">
-            <Button variant="ghost" size="icon" className="relative">
-              <Bell className="h-5 w-5 text-gray-500" />
-              <span className="absolute right-2.5 top-2.5 h-[6px] w-[6px] rounded-full bg-red-500" />
-              <span className="sr-only">1 Notification</span>
-            </Button>
-            <DropdownMenu>
-              <DropdownMenuTrigger asChild>
-                <Button variant="ghost" className="gap-2 px-2 hover:bg-gray-50">
-                  <Avatar className="h-8 w-8 rounded-full border border-gray-200">
-                    <AvatarImage src="/placeholder.svg?height=32&width=32" alt="Lilian Smith" />
-                    <AvatarFallback>LS</AvatarFallback>
-                  </Avatar>
-                  <span className="text-sm font-normal">Lilian Smith</span>
-                  <ChevronDown className="h-4 w-4 text-gray-500" />
-                </Button>
-              </DropdownMenuTrigger>
-              <DropdownMenuContent align="end">
-                <DropdownMenuItem>Profile</DropdownMenuItem>
-                <DropdownMenuItem>Settings</DropdownMenuItem>
-                <DropdownMenuItem>Logout</DropdownMenuItem>
-              </DropdownMenuContent>
-            </DropdownMenu>
-          </div>
+          <div className="flex items-center gap-3">
+    <Button variant="ghost" size="icon" className="relative h-9 w-9 rounded-full bg-[#F1FAFE]">
+      <Bell className="h-5 w-5 text-[#00B8D9]" />
+      <span className="absolute right-0 top-0 flex h-5 w-5 items-center justify-center rounded-full bg-[#DE350B] text-[10px] font-medium text-white">4</span>
+      <span className="sr-only">4 Notifications</span>
+    </Button>
+    <DropdownMenu>
+      <DropdownMenuTrigger asChild>
+        <Button variant="ghost" className="h-9 gap-2 rounded-full bg-[#F1FAFE] px-2 text-sm font-medium hover:bg-[#E6F4FB]">
+          <Avatar className="h-7 w-7">
+            <AvatarImage src="/placeholder.svg?height=28&width=28" alt="Lilian Smith" />
+            <AvatarFallback>LS</AvatarFallback>
+          </Avatar>
+          <span className="text-[#42526E]">Lilian Smith</span>
+          <ChevronDown className="h-4 w-4 text-[#42526E]" />
+        </Button>
+      </DropdownMenuTrigger>
+      <DropdownMenuContent align="end">
+        <DropdownMenuItem>Profile</DropdownMenuItem>
+        <DropdownMenuItem>Settings</DropdownMenuItem>
+        <DropdownMenuItem>Logout</DropdownMenuItem>
+      </DropdownMenuContent>
+    </DropdownMenu>
+  </div>
         </header>
 
         {/* Main Content */}
