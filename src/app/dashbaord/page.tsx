@@ -78,7 +78,7 @@ export default function Dashboard() {
         <div className="flex h-full flex-col justify-between p-6">
           <div>
             <div className="flex items-center justify-between">
-              <Image src="/placeholder.svg?height=40&width=150" alt="bouletteproof" width={150} height={40} className="mb-8" />
+              <Image src="/logo.svg?height=40&width=150" alt="bouletteproof" width={150} height={40} className="mb-8" />
               <Button
                 variant="ghost"
                 size="icon"
