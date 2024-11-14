@@ -1,12 +1,12 @@
-import '@/styles/globals.css'
+import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Bouletteproof Dashboard',
-  description: 'Bouletteproof dashboard design',
+  title: 'Dashboard',
+  description: 'BoulleteProof dashboard application',
 }
 
 export default function RootLayout({
