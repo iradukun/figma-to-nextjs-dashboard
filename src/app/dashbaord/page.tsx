@@ -362,25 +362,25 @@ export default function Dashboard () {
                       </div>
                     </div>
                   </div>
-                  <div className='flex gap-4'>
+                  <div className='flex gap-2'>
                     <Button
-                      variant='ghost'
+                      variant='outline'
                       size='sm'
-                      className='text-sm font-normal text-gray-500'
+                      className='h-8 rounded-md border-gray-200 px-3 text-sm font-normal text-gray-500 hover:bg-gray-50'
                     >
                       Daily
                     </Button>
                     <Button
-                      variant='ghost'
+                      variant='outline'
                       size='sm'
-                      className='text-sm font-normal text-gray-500'
+                      className='h-8 rounded-md border-gray-200 px-3 text-sm font-normal text-gray-500 hover:bg-gray-50'
                     >
                       Monthly
                     </Button>
                     <Button
-                      variant='ghost'
+                      variant='outline'
                       size='sm'
-                      className='text-sm font-normal text-gray-500'
+                      className='h-8 rounded-md border-gray-200 px-3 text-sm font-normal text-gray-500 hover:bg-gray-50'
                     >
                       Yearly
                     </Button>
