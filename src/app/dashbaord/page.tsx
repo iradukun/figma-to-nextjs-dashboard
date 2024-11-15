@@ -179,7 +179,7 @@ export default function Dashboard() {
   size="icon" 
   className="relative h-10 w-10 rounded-full bg-[#1C2434] hover:bg-gray-500"
 >
-  <Bell className="h-5 w-5 text-gray-500" />
+  <Bell className="h-5 w-5 text-gray-500 hover:text-gray-200" />
   <span className="absolute -right-0.5 -top-0.5 flex h-5 w-5 items-center justify-center rounded-full bg-red-500 text-[10px] font-medium text-white">
     4
   </span>
